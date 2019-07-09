@@ -5,7 +5,7 @@
   The goal is to create a TODO tracker using vanilla JavaScript components.
 
   Inside the HTML there is a `todos-component` div. It has everything we need. A
-  `todos-container` to hold to eventual todo items, as well as a `todo-form` which
+  `todos-container` to hold the eventual todo items, as well as a `todo-form` which
   has an input and a submit button.
 
   All of our JavaScript is in `components/todo/index.js`. It contains some code to
