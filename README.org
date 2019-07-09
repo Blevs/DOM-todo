@@ -17,7 +17,7 @@
   does. It is the only CSS needed to complete the MVP.
 
   If you want to add any more styles to the project, don't forget to run
-  `less-watch-complier less css index.less` at the root of the project.
+  `less-watch-compiler less css index.less` at the root of the project.
 
 ** Stretch
    
