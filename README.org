@@ -1,0 +1,26 @@
+* DOM TODO
+
+  An unofficial afternoon project.
+
+  The goal is to create a TODO tracker using vanilla JavaScript components.
+
+  Inside the HTML there is a `todos-component` div. It has everything we need. A
+  `todos-container` to hold to eventual todo items, as well as a `todo-form` which
+  has an input and a submit button.
+
+  All of our JavaScript is in `components/todo/index.js`. It contains some code to
+  guide you along this project, which is a bit complicated to setup. Once you are
+  done, I would highly recommend clearing the file and trying to implement it from
+  scratch.
+
+  Don't forget to peek in `components/todo/todo.less` to see what the `done` class
+  does. It is the only CSS needed to complete the MVP.
+
+  If you want to add any more styles to the project, don't forget to run
+  `less-watch-complier less css index.less` at the root of the project.
+
+** Stretch
+   
+   You will find a button commented in the HTML with the text 'Clear Completed'.
+   Add the functionality so that when the button is clicked all of the todo's
+   marked 'done' are removed from the list of todos.
